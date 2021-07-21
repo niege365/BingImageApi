@@ -1,4 +1,4 @@
-# Bing 每日图片 API
+# Bing 每日图片 API fork
 
 ### 使用方法
 
