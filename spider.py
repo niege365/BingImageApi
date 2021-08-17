@@ -59,7 +59,7 @@ def getCookies(url):
     # print('提取 FedAuth:' + cookies['FedAuth'])
     return cookies
 
-
+'''
 def getAccessToken(url):
     tenant, mail = parseUrl(url)
     cookies = getCookies(url)
@@ -122,7 +122,7 @@ def uploadImage(name, file):
     response = req.get(url, headers=headers, allow_redirects=False)
     download_link = response.headers['Location']
     print(f'文件上传成功，下载地址：\n{download_link}')
-
+'''
 
 def main():
     api_url = 'https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=en-US'
